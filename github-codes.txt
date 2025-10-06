@@ -41,11 +41,14 @@ git pull origin main					#download from remote and update the local and match
 
 
 #UNDOING CHANGES
+
 #stages changes:
 git reset <-file name->
 git reset
+
 #commited changes:
 git reset HEAD~1
+
 #commited changes for many commits
 git reset <-commit hash->
 git reset --hard <-commit hash->
