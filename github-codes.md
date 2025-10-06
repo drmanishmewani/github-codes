@@ -25,7 +25,7 @@ git remote -v
 git branch
 git branch -M main 						#to rename branch to main if required
 git push origin main					#to push to origin main
-git push -u origin main 				#(to permanently use origin branch
+git push -u origin main 				#to permanently use origin branch
 
 git checkout <-branch name-> 			#to navigate
 git checkout -b <-new branch name->		#to create new branch
