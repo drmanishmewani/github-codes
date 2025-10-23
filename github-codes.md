@@ -32,15 +32,15 @@ git checkout -b <-new branch name->		#to create new branch
 git branch -d <-branch name-> 			#to delete branch
 
 
-#MERGING CODE
+### MERGING CODE
 git diff <-branch name->				#to compare commits, branches, files and more
 git merge <-branch name->				#to merge 2 branches
 
-#PULL COMMAND
+### PULL COMMAND
 git pull origin main					#download from remote and update the local and match
 
 
-#UNDOING CHANGES
+### UNDOING CHANGES
 #stages changes:
 git reset <-file name->
 git reset
@@ -54,7 +54,7 @@ git log									#to check and copy hash
 
 
 
-You can create a GitHub repository and push your existing VS Code project by following these steps:
+### You can create a GitHub repository and push your existing VS Code project by following these steps:
 ### Create GitHub Repository
 Go to GitHub.com and create a new empty repository. Do not initialize it with README, license, or gitignore files to avoid conflicts. Copy the repository URL from the Quick Setup page.
 ### Initialize Git Locally
